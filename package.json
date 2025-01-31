@@ -1,0 +1,35 @@
+{
+  "name": "liboqs-windows",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:linux": "npm run liboqs:build && node-gyp rebuild",
+    "build:windows": "npm run liboqs:build:windows && node-gyp rebuild",
+    "liboqs:build:windows": "cd deps/liboqs && mkdir build && cd build && cmake -G \"Visual Studio 17 2022\" -A x64 -DBUILD_SHARED_LIBS=OFF -DCMAKE_BUILD_TYPE=Release -DOQS_BUILD_ONLY_LIB=ON -DOQS_USE_OPENSSL=ON -DOQS_DIST_BUILD=ON .. && msbuild ALL_BUILD.vcxproj",
+    "build": "node-gyp rebuild",
+    "prep": "npx rimraf deps && mkdir deps && cd deps && git clone https://github.com/open-quantum-safe/liboqs.git && git clone https://github.com/open-quantum-safe/liboqs-cpp.git && cd liboqs && git checkout f4b96220 && cd ../liboqs-cpp && git checkout 7e293be && cd ./include && echo \"#ifndef LIBOQS_CPP_VERSION\" > temp_common.hpp && echo \"#define LIBOQS_CPP_VERSION \\\"0.12.0\\\"\" >> temp_common.hpp && echo \"#endif\" >> temp_common.hpp && cat common.hpp >> temp_common.hpp && mv temp_common.hpp common.hpp",
+    "build:all": "npm run liboqs:build && node-gyp rebuild",
+    "build:package": "npm run build:all && node-pre-gyp package",
+    "docs:build": "jsdoc -c ./docs/jsdoc.json",
+    "ensure_submodules": "node ./scripts/ensure_submodules.js",
+    "install": "node-pre-gyp install --fallback-to-build",
+    "liboqs:build": "cd deps/liboqs && rm -rf ./build && mkdir build && cd build && cmake -DBUILD_SHARED_LIBS=OFF -DCMAKE_BUILD_TYPE=Release -DOQS_BUILD_ONLY_LIB=ON -DOQS_USE_OPENSSL=ON -DOQS_DIST_BUILD=ON -GNinja .. && ninja",
+    "liboqs:build_if_not_exists": "node -e \"require('fs').existsSync('./deps/liboqs/build/include/oqs/oqs.h') || require('child_process').execSync('npm run liboqs:build', {stdio: 'inherit'})\"",
+    "prebuild": "npm run ensure_submodules && npm run liboqs:build_if_not_exists",
+    "publish:prepare": "node-pre-gyp configure && node-pre-gyp rebuild && node-pre-gyp package",
+    "publish:draft": "NODE_PRE_GYP_GITHUB_TOKEN=$(cat publish-token) node-pre-gyp-github publish",
+    "tag_upload_binary_release": "node ./scripts/tag_upload_binary_release.js",
+    "test": "mocha --bail false"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@electron/rebuild": "^3.7.1",
+    "electron": "^32.1.2"
+  },
+  "dependencies": {
+    "node-addon-api": "^8.3.0",
+    "node-gyp": "^11.0.0"
+  }
+}
