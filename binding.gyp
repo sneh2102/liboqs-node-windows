@@ -25,8 +25,8 @@
           "libraries": [
             "../deps/liboqs/build/lib/Debug/oqs.lib",
             "../deps/liboqs/build/lib/Debug/oqs-internal.lib",
-            "C:/Program Files/OpenSSL-Win64/lib/libcrypto.lib",
-            "C:/Program Files/OpenSSL-Win64/lib/libssl.lib"
+            "C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/libcrypto.lib",
+            "C:/Program Files/OpenSSL-Win64/lib/VC/x64/MD/libssl.lib"
           ],
           "msvs_settings": {
             "VCCLCompilerTool": {

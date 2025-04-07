@@ -1,7 +1,7 @@
-C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\src\addon.cpp;C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\build\Release\obj\liboqs_node\src\addon.obj
-C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\src\KEMs.cpp;C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\build\Release\obj\liboqs_node\src\KEMs.obj
-C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\src\KeyEncapsulation.cpp;C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\build\Release\obj\liboqs_node\src\KeyEncapsulation.obj
-C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\src\Random.cpp;C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\build\Release\obj\liboqs_node\src\Random.obj
-C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\src\Signature.cpp;C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\build\Release\obj\liboqs_node\src\Signature.obj
-C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\src\Sigs.cpp;C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\build\Release\obj\liboqs_node\src\Sigs.obj
-C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\node_modules\@electron\node-gyp\src\win_delay_load_hook.cc;C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\build\Release\obj\liboqs_node\win_delay_load_hook.obj
+C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\src\addon.cpp;C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\build\Release\obj\liboqs_node\src\addon.obj
+C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\src\KEMs.cpp;C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\build\Release\obj\liboqs_node\src\KEMs.obj
+C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\src\KeyEncapsulation.cpp;C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\build\Release\obj\liboqs_node\src\KeyEncapsulation.obj
+C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\src\Random.cpp;C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\build\Release\obj\liboqs_node\src\Random.obj
+C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\src\Signature.cpp;C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\build\Release\obj\liboqs_node\src\Signature.obj
+C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\src\Sigs.cpp;C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\build\Release\obj\liboqs_node\src\Sigs.obj
+C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\node_modules\@electron\node-gyp\src\win_delay_load_hook.cc;C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\build\Release\obj\liboqs_node\win_delay_load_hook.obj

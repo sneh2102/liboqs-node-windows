@@ -11,12 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{288D5E2A-CA3D-D55C-1A58-BEC92D12EC85}</ProjectGuid>
+    <ProjectGuid>{B208A71F-A530-ED53-8853-2B94CDFC9805}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>liboqs_node</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
   <PropertyGroup Label="Configuration">
@@ -48,7 +48,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Sneh Patel\.electron-gyp\32.1.2\include\node;C:\Users\Sneh Patel\.electron-gyp\32.1.2\src;C:\Users\Sneh Patel\.electron-gyp\32.1.2\deps\openssl\config;C:\Users\Sneh Patel\.electron-gyp\32.1.2\deps\openssl\openssl\include;C:\Users\Sneh Patel\.electron-gyp\32.1.2\deps\uv\include;C:\Users\Sneh Patel\.electron-gyp\32.1.2\deps\zlib;C:\Users\Sneh Patel\.electron-gyp\32.1.2\deps\v8\include;C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\node_modules\node-addon-api;..\deps\liboqs\build\include;..\deps\liboqs-cpp\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Sneh\.electron-gyp\32.3.3\include\node;C:\Users\Sneh\.electron-gyp\32.3.3\src;C:\Users\Sneh\.electron-gyp\32.3.3\deps\openssl\config;C:\Users\Sneh\.electron-gyp\32.3.3\deps\openssl\openssl\include;C:\Users\Sneh\.electron-gyp\32.3.3\deps\uv\include;C:\Users\Sneh\.electron-gyp\32.3.3\deps\zlib;C:\Users\Sneh\.electron-gyp\32.3.3\deps\v8\include;C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\node_modules\node-addon-api;..\deps\liboqs\build\include;..\deps\liboqs-cpp\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus -std:c++20 %(AdditionalOptions)</AdditionalOptions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck>true</BufferSecurityCheck>
@@ -60,7 +60,7 @@
       <OmitFramePointers>false</OmitFramePointers>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=liboqs_node;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;_GLIBCXX_USE_CXX11_ABI=1;ELECTRON_ENSURE_CONFIG_GYPI;USING_ELECTRON_CONFIG_GYPI;V8_COMPRESS_POINTERS;V8_COMPRESS_POINTERS_IN_ISOLATE_CAGE;V8_31BIT_SMIS_ON_64BIT_ARCH;V8_ENABLE_SANDBOX;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;OPENSSL_NO_ASM;NAPI_CPP_EXCEPTIONS;NAPI_VERSION=6;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=liboqs_node;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;_GLIBCXX_USE_CXX11_ABI=1;ELECTRON_ENSURE_CONFIG_GYPI;USING_ELECTRON_CONFIG_GYPI;V8_COMPRESS_POINTERS;V8_COMPRESS_POINTERS_IN_ISOLATE_CAGE;V8_31BIT_SMIS_ON_64BIT_ARCH;V8_ENABLE_SANDBOX;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;NOMINMAX;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;OPENSSL_NO_ASM;NAPI_CPP_EXCEPTIONS;NAPI_VERSION=6;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <StringPooling>true</StringPooling>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -72,7 +72,7 @@
       <AdditionalOptions>/LTCG:INCREMENTAL %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\\Users\\Sneh Patel\\.electron-gyp\\32.1.2\\x64\\node.lib&quot;;..\deps\liboqs\build\lib\Debug\oqs.lib;..\deps\liboqs\build\lib\Debug\oqs-internal.lib;C:\Program Files\OpenSSL-Win64\lib\libcrypto.lib;C:\Program Files\OpenSSL-Win64\lib\libssl.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\\Users\\Sneh\\.electron-gyp\\32.3.3\\x64\\node.lib&quot;;..\deps\liboqs\build\lib\Debug\oqs.lib;..\deps\liboqs\build\lib\Debug\oqs-internal.lib;C:\Program Files\OpenSSL-Win64\lib\VC\x64\MD\libcrypto.lib;C:\Program Files\OpenSSL-Win64\lib\VC\x64\MD\libssl.lib</AdditionalDependencies>
       <AdditionalOptions>/LTCG:INCREMENTAL /ignore:4199 %(AdditionalOptions)</AdditionalOptions>
       <DelayLoadDLLs>node.exe;%(DelayLoadDLLs)</DelayLoadDLLs>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -84,13 +84,13 @@
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\Sneh Patel\.electron-gyp\32.1.2\include\node;C:\Users\Sneh Patel\.electron-gyp\32.1.2\src;C:\Users\Sneh Patel\.electron-gyp\32.1.2\deps\openssl\config;C:\Users\Sneh Patel\.electron-gyp\32.1.2\deps\openssl\openssl\include;C:\Users\Sneh Patel\.electron-gyp\32.1.2\deps\uv\include;C:\Users\Sneh Patel\.electron-gyp\32.1.2\deps\zlib;C:\Users\Sneh Patel\.electron-gyp\32.1.2\deps\v8\include;C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\node_modules\node-addon-api;..\deps\liboqs\build\include;..\deps\liboqs-cpp\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=liboqs_node;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;_GLIBCXX_USE_CXX11_ABI=1;ELECTRON_ENSURE_CONFIG_GYPI;USING_ELECTRON_CONFIG_GYPI;V8_COMPRESS_POINTERS;V8_COMPRESS_POINTERS_IN_ISOLATE_CAGE;V8_31BIT_SMIS_ON_64BIT_ARCH;V8_ENABLE_SANDBOX;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;OPENSSL_NO_ASM;NAPI_CPP_EXCEPTIONS;NAPI_VERSION=6;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sneh\.electron-gyp\32.3.3\include\node;C:\Users\Sneh\.electron-gyp\32.3.3\src;C:\Users\Sneh\.electron-gyp\32.3.3\deps\openssl\config;C:\Users\Sneh\.electron-gyp\32.3.3\deps\openssl\openssl\include;C:\Users\Sneh\.electron-gyp\32.3.3\deps\uv\include;C:\Users\Sneh\.electron-gyp\32.3.3\deps\zlib;C:\Users\Sneh\.electron-gyp\32.3.3\deps\v8\include;C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\node_modules\node-addon-api;..\deps\liboqs\build\include;..\deps\liboqs-cpp\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=liboqs_node;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;_GLIBCXX_USE_CXX11_ABI=1;ELECTRON_ENSURE_CONFIG_GYPI;USING_ELECTRON_CONFIG_GYPI;V8_COMPRESS_POINTERS;V8_COMPRESS_POINTERS_IN_ISOLATE_CAGE;V8_31BIT_SMIS_ON_64BIT_ARCH;V8_ENABLE_SANDBOX;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;NOMINMAX;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;OPENSSL_NO_ASM;NAPI_CPP_EXCEPTIONS;NAPI_VERSION=6;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Sneh Patel\.electron-gyp\32.1.2\include\node;C:\Users\Sneh Patel\.electron-gyp\32.1.2\src;C:\Users\Sneh Patel\.electron-gyp\32.1.2\deps\openssl\config;C:\Users\Sneh Patel\.electron-gyp\32.1.2\deps\openssl\openssl\include;C:\Users\Sneh Patel\.electron-gyp\32.1.2\deps\uv\include;C:\Users\Sneh Patel\.electron-gyp\32.1.2\deps\zlib;C:\Users\Sneh Patel\.electron-gyp\32.1.2\deps\v8\include;C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\node_modules\node-addon-api;..\deps\liboqs\build\include;..\deps\liboqs-cpp\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Sneh\.electron-gyp\32.3.3\include\node;C:\Users\Sneh\.electron-gyp\32.3.3\src;C:\Users\Sneh\.electron-gyp\32.3.3\deps\openssl\config;C:\Users\Sneh\.electron-gyp\32.3.3\deps\openssl\openssl\include;C:\Users\Sneh\.electron-gyp\32.3.3\deps\uv\include;C:\Users\Sneh\.electron-gyp\32.3.3\deps\zlib;C:\Users\Sneh\.electron-gyp\32.3.3\deps\v8\include;C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\node_modules\node-addon-api;..\deps\liboqs\build\include;..\deps\liboqs-cpp\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus -std:c++20 %(AdditionalOptions)</AdditionalOptions>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
@@ -104,7 +104,7 @@
       <OmitFramePointers>true</OmitFramePointers>
       <Optimization>Full</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=liboqs_node;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;_GLIBCXX_USE_CXX11_ABI=1;ELECTRON_ENSURE_CONFIG_GYPI;USING_ELECTRON_CONFIG_GYPI;V8_COMPRESS_POINTERS;V8_COMPRESS_POINTERS_IN_ISOLATE_CAGE;V8_31BIT_SMIS_ON_64BIT_ARCH;V8_ENABLE_SANDBOX;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;OPENSSL_NO_ASM;NAPI_CPP_EXCEPTIONS;NAPI_VERSION=6;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=liboqs_node;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;_GLIBCXX_USE_CXX11_ABI=1;ELECTRON_ENSURE_CONFIG_GYPI;USING_ELECTRON_CONFIG_GYPI;V8_COMPRESS_POINTERS;V8_COMPRESS_POINTERS_IN_ISOLATE_CAGE;V8_31BIT_SMIS_ON_64BIT_ARCH;V8_ENABLE_SANDBOX;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;NOMINMAX;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;OPENSSL_NO_ASM;NAPI_CPP_EXCEPTIONS;NAPI_VERSION=6;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <StringPooling>true</StringPooling>
@@ -117,7 +117,7 @@
       <AdditionalOptions>/LTCG:INCREMENTAL %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\\Users\\Sneh Patel\\.electron-gyp\\32.1.2\\x64\\node.lib&quot;;..\deps\liboqs\build\lib\Debug\oqs.lib;..\deps\liboqs\build\lib\Debug\oqs-internal.lib;C:\Program Files\OpenSSL-Win64\lib\libcrypto.lib;C:\Program Files\OpenSSL-Win64\lib\libssl.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\\Users\\Sneh\\.electron-gyp\\32.3.3\\x64\\node.lib&quot;;..\deps\liboqs\build\lib\Debug\oqs.lib;..\deps\liboqs\build\lib\Debug\oqs-internal.lib;C:\Program Files\OpenSSL-Win64\lib\VC\x64\MD\libcrypto.lib;C:\Program Files\OpenSSL-Win64\lib\VC\x64\MD\libssl.lib</AdditionalDependencies>
       <AdditionalOptions>/LTCG:INCREMENTAL /ignore:4199 %(AdditionalOptions)</AdditionalOptions>
       <DelayLoadDLLs>node.exe;%(DelayLoadDLLs)</DelayLoadDLLs>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -129,8 +129,8 @@
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\Sneh Patel\.electron-gyp\32.1.2\include\node;C:\Users\Sneh Patel\.electron-gyp\32.1.2\src;C:\Users\Sneh Patel\.electron-gyp\32.1.2\deps\openssl\config;C:\Users\Sneh Patel\.electron-gyp\32.1.2\deps\openssl\openssl\include;C:\Users\Sneh Patel\.electron-gyp\32.1.2\deps\uv\include;C:\Users\Sneh Patel\.electron-gyp\32.1.2\deps\zlib;C:\Users\Sneh Patel\.electron-gyp\32.1.2\deps\v8\include;C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\node_modules\node-addon-api;..\deps\liboqs\build\include;..\deps\liboqs-cpp\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=liboqs_node;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;_GLIBCXX_USE_CXX11_ABI=1;ELECTRON_ENSURE_CONFIG_GYPI;USING_ELECTRON_CONFIG_GYPI;V8_COMPRESS_POINTERS;V8_COMPRESS_POINTERS_IN_ISOLATE_CAGE;V8_31BIT_SMIS_ON_64BIT_ARCH;V8_ENABLE_SANDBOX;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;OPENSSL_NO_ASM;NAPI_CPP_EXCEPTIONS;NAPI_VERSION=6;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sneh\.electron-gyp\32.3.3\include\node;C:\Users\Sneh\.electron-gyp\32.3.3\src;C:\Users\Sneh\.electron-gyp\32.3.3\deps\openssl\config;C:\Users\Sneh\.electron-gyp\32.3.3\deps\openssl\openssl\include;C:\Users\Sneh\.electron-gyp\32.3.3\deps\uv\include;C:\Users\Sneh\.electron-gyp\32.3.3\deps\zlib;C:\Users\Sneh\.electron-gyp\32.3.3\deps\v8\include;C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\node_modules\node-addon-api;..\deps\liboqs\build\include;..\deps\liboqs-cpp\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=liboqs_node;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;_GLIBCXX_USE_CXX11_ABI=1;ELECTRON_ENSURE_CONFIG_GYPI;USING_ELECTRON_CONFIG_GYPI;V8_COMPRESS_POINTERS;V8_COMPRESS_POINTERS_IN_ISOLATE_CAGE;V8_31BIT_SMIS_ON_64BIT_ARCH;V8_ENABLE_SANDBOX;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;NOMINMAX;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;OPENSSL_NO_ASM;NAPI_CPP_EXCEPTIONS;NAPI_VERSION=6;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -155,7 +155,7 @@
     <ClCompile Include="..\src\Sigs.cpp">
       <ObjectFileName>$(IntDir)\src\Sigs.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\node_modules\@electron\node-gyp\src\win_delay_load_hook.cc"/>
+    <ClCompile Include="C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\node_modules\@electron\node-gyp\src\win_delay_load_hook.cc"/>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
   <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets"/>

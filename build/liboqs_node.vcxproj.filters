@@ -43,31 +43,28 @@
     <Filter Include="C:\Users">
       <UniqueIdentifier>{E9F714C1-DA89-54E2-60CF-39FEB20BF756}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Users\Sneh Patel">
-      <UniqueIdentifier>{BEABD7F8-9CE2-2BA4-045E-8028E52A1522}</UniqueIdentifier>
+    <Filter Include="C:\Users\Sneh">
+      <UniqueIdentifier>{4CA95A29-1DD8-50AF-60C6-80EA2B565D16}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Users\Sneh Patel\Desktop">
+    <Filter Include="C:\Users\Sneh\Desktop">
       <UniqueIdentifier>{B23D6E4D-7634-EF57-62FC-46A6189C0B6E}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Users\Sneh Patel\Desktop\TeleAi">
-      <UniqueIdentifier>{7FD0505E-51DB-CB47-A80A-24698287E7D0}</UniqueIdentifier>
+    <Filter Include="C:\Users\Sneh\Desktop\Liboqs-windows">
+      <UniqueIdentifier>{A346F910-1B6D-90FE-5502-E9CEEF3D9C71}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node">
-      <UniqueIdentifier>{09B20DFC-1ABE-5BD1-A074-11F0A1CC1437}</UniqueIdentifier>
+    <Filter Include="C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows">
+      <UniqueIdentifier>{ED2AC50B-71E9-9817-BB57-6D6D299AD916}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows">
-      <UniqueIdentifier>{8A025DAF-BF61-70C1-D3D2-62CC8E84FE9D}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\node_modules">
+    <Filter Include="C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\node_modules">
       <UniqueIdentifier>{56DF7A98-063D-FB9D-485C-089023B4C16A}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\node_modules\@electron">
+    <Filter Include="C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\node_modules\@electron">
       <UniqueIdentifier>{6FD122B1-87CE-5BE7-127F-692B6E499EA3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\node_modules\@electron\node-gyp">
+    <Filter Include="C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\node_modules\@electron\node-gyp">
       <UniqueIdentifier>{77348C0E-2034-7791-74D5-63C077DF5A3B}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\node_modules\@electron\node-gyp\src">
+    <Filter Include="C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\node_modules\@electron\node-gyp\src">
       <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
     </Filter>
     <Filter Include="..">
@@ -93,8 +90,8 @@
     <ClCompile Include="..\src\Sigs.cpp">
       <Filter>..\src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\node_modules\@electron\node-gyp\src\win_delay_load_hook.cc">
-      <Filter>C:\Users\Sneh Patel\Desktop\TeleAi\liboqs-node\liboqs-windows\node_modules\@electron\node-gyp\src</Filter>
+    <ClCompile Include="C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\node_modules\@electron\node-gyp\src\win_delay_load_hook.cc">
+      <Filter>C:\Users\Sneh\Desktop\Liboqs-windows\liboqs-node-windows\node_modules\@electron\node-gyp\src</Filter>
     </ClCompile>
     <None Include="..\binding.gyp">
       <Filter>..</Filter>
